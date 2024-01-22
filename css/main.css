@@ -1,8 +1,4 @@
-body * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
+
 /* tevo vaiko rysys griesztas*/
 /* main p - suranda visus tag pavadinimu, kurie yra po tevu.  */
 main > p{
