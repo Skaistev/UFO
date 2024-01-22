@@ -1,42 +1,68 @@
+body * {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+/* tevo vaiko rysys griesztas*/
+/* main p - suranda visus tag pavadinimu, kurie yra po tevu.  */
+main > p{
+    color: aliceblue;
+}
+
+
 body {
     background-color:white;
 }
 main {
     display: inline-block;
     background-color: rgb(250, 246, 248); 
-    width: 60%; 
-    margin-top: 10%; 
-    margin-left: 20%; 
-    margin-right: 5%;
+    width: 1200px; 
+    margin-top: 180px; 
+    margin-left: 360px; 
+    margin-right: 100px;
 }
 div {
-    background-color: white
+    box-sizing: content-box;
+    background-color: white;
+    width: 200px; 
+    margin-top: 15%; 
+    margin-left: 20%;
+    float:left
 }
 h1 {
-    margin: 0;
     color:rgb(36, 144, 245);
     font-size: 70px ;
     font-family:fantasy 
 }
 p {
-    margin-top: 1%;
     color: rgb(77, 83, 83);
     font-family: fantasy;
     font-size: 30px;
     text-transform: uppercase;
 }
-a {
-    margin-top: 5%;
+a {display: inline-block;
+    /* background-color: rgb(198, 198, 235); */
+    text-align: center;
+    width: 120px;
+    color: rgb(36, 144, 245);
+    margin-top: 30px;
+    padding: 10px;
+    /* padding-top: 10px; */
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-width: 1px;
+    border-color: rgb(36, 144, 245);
+    border-style: solid;
+    border-radius: 30px;
 
 }
 
 img {
-    width: 50%; 
-    float:right ; 
-    margin-top: 5%; 
-    margin-right: 5%;
-    margin-bottom: 5%;
+    width: 500px; 
+    float: right; 
+    margin-top: 80px; 
+    margin-right: 160px;
+    margin-bottom: 80px;
 }
 
 
